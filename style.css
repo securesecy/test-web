@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+ul{
+    justify-content: center;
+    gap:3rem;
+}
+
+.nav-bar{
+    justify-content:space-around;
+
+}
+
+.logo-desc{
+    font-size: 1.2rem;
+}
+
+.logo-text{
+    text-align: center;
+}
+
+.primary-btn{
+    color: white;
+    background-color: aquamarine;
+    padding:10px 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    
+}
+
+.secondary-btn{
+    color:aquamarine;
+    padding:10px 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: aquamarine 2px solid;
+}
+
+footer{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap:1.2rem;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+.socials{
+    justify-content: center;
+    gap:1.2rem;
+}
